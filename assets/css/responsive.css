@@ -1,0 +1,98 @@
+/* Responsive pour les tablettes (écrans entre 768px et 1024px) */
+@media screen and (max-width: 1024px) {
+    .section1{
+        height: 100vh;
+    }
+
+    .section1 .section1-content {
+        flex-direction: column;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .section3,.section4,.section5,.section2{
+        padding: 20px 40px;
+    }
+
+    .section1 .section1-content .photo-profil img {
+        height: 200px;
+        display: none;
+    }
+
+    .section2 .middle {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .section3 .maitrise {
+        gap: 30px;
+    }
+
+    .section4 .about {
+        flex-direction: column;
+        /* text-align: center; */
+        align-items: center;
+    }
+
+    .section5 .projects {
+        flex-direction: column;
+    }
+
+    .section5 .projects .capture,
+    .section5 .projects .description {
+        width: 100%;
+    }
+
+    .section6 {
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .section6 .cards {
+        flex-wrap: wrap;
+    }
+}
+
+/* Responsive pour les mobiles (écrans de moins de 768px) */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .section1 .section1-content {
+        padding: 20px;
+    }
+
+    .section1 .section1-content h1 {
+        font-size: 30px;
+    }
+
+    .section1 .section1-content .photo-profil img {
+        height: 150px;
+    }
+
+    .section2 img {
+        height: 250px;
+    }
+
+    .section3 .maitrise img {
+        height: 70px;
+    }
+
+    .section4 .about {
+        padding: 10px;
+    }
+
+    .section5 .projects .capture img {
+        height: 150px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    footer h1 {
+        font-size: 12px;
+    }
+}

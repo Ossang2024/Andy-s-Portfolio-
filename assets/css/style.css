@@ -1,0 +1,488 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Estonia&family=Faculty+Glyphic&family=Gothic+A1&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+
+.section1 {
+    background-color: rgb(3,7,18);
+    max-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* modéliation du header */
+.section1 header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.section1 .logo h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(246,245,251);
+}
+
+.section1 .navlist ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section1 .navlist ul li a {
+    color: rgb(246,245,251);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    transition: ease-in-out 0.3s;
+}
+.section1 .navlist a:hover {
+    color: rgb(111,102,255);
+    letter-spacing: 1px;
+}
+
+.section1 .navlist ul li .cv {
+    padding: 5px 20px;
+    background-color: rgb(246,245,251);
+    color: rgba(0, 0, 0, 0.869);
+    border-radius: 10px;
+    transition: ease-in-out 0.3s;
+}
+.section1 .navlist .cv:hover {
+    background-color: rgb(31,41,55);
+    color: rgb(246,245,251);
+}
+
+.section1 .navlist ul li p {
+    height: 25px;
+    width: 1px;
+    background-color: rgb(151,154,163);
+}
+
+.section1 .section1-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 40px;
+    height: 100%;
+    padding: 100px 100px;
+    font-family: "Roboto", sans-serif;
+}
+
+.section1 .section1-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.section1 .section1-content .text{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    color: rgb(246,245,251);
+}
+
+/* disposition ds icones dns le texte */
+.section1 .section1-content .text div {
+    display: flex;
+    align-items: center;
+}
+.section1 .section1-content .text div img {
+    height: 20px;
+    margin-right: 5px;
+}
+.section1 .section1-content p span {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    display: block;
+    background-color: rgb(2, 115, 13);
+    margin-right: 10px;
+    margin-left: 3px;
+}
+.section1 .section1-content a img {
+    height: 30px;
+    margin-right: 5px;
+    transition: transform 1s ease;
+}
+
+.section1 .section1-content a img:hover{
+    transform: rotate(360deg);
+}
+
+
+/* modélisation de la photo de profil */
+.section1 .section1-content .photo-profil img {
+    height: 240px;
+    box-shadow: 15px 15px rgb(31,41,55);
+    padding: 4px;
+}
+
+
+
+
+
+
+/* Modélisation de la section2*/
+.section2 {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(17,24,39);
+    padding: 40px 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* style du grand titre */
+.section2 h1 {
+    color: rgb(246,245,251);
+    background-color: rgb(151,154,163);
+    padding: 5px 20px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+/* section2 du a propos */
+.section2 .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    padding: 50px 0px;
+}
+
+.section2 .middle p {
+    color: rgb(246,245,251);
+    font-size: 13px;
+}
+
+.section2 .middle p span {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.section2 .middle ul {
+    color: rgb(246,245,251);
+    font-size: 13px;
+    list-style-type:disc;
+    margin-left: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* modélisation de la photo de profil */
+.section2 img {
+    height: 400px;
+    box-shadow: 15px 15px rgb(31,41,55);
+    padding: 4px;
+}
+
+
+
+
+
+/*Modélisation de la section3 */
+.section3 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(3,7,18);
+    min-height: 100vh;
+    padding: 60px 100px;
+    flex-direction: column;
+}
+
+.section3 h1 {
+    color: rgb(246,245,251);
+    background-color: rgb(151,154,163);
+    padding: 5px 20px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.section3 h2 {
+    color: rgb(246,245,251);
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 4px solid rgb(246,245,251);
+    border-top: none;
+    border-right: none;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.section3 .maitrise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.section3 .maitrise .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section3 .maitrise img {
+    height: 100px;
+}
+
+.section3 .maitrise h3 {
+    color: rgb(246,245,251);
+    text-transform: capitalize;
+}
+
+
+
+
+
+/* Modélisation de la section4 */
+.section4 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(17,24,39);
+    min-height: 100vh;
+    padding: 60px 100px;
+    flex-direction: column;
+}
+
+.section4 h1 {
+    color: rgb(246,245,251);
+    background-color: rgb(151,154,163);
+    padding: 5px 20px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+
+.section4 .about {
+    display: flex;
+    gap: 40px;
+    color: rgb(246,245,251);
+    background-color: rgb(31,41,55);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.section4 .about h2 {
+    width: 30%;
+    color: #f6c483;
+    letter-spacing: 1px;
+}
+
+.section4 .about p {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.section4 .about h3 {
+    margin: 10px 0px;
+}
+
+.section4 .about ul {
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+
+
+
+/* modélisation de la section5 */
+.section5 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(3,7,18);
+    min-height: 100vh;
+    padding: 60px 100px;
+    flex-direction: column;
+}
+
+.section5 h1 {
+    color: rgb(246,245,251);
+    background-color: rgb(151,154,163);
+    padding: 5px 20px;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 70px;
+}
+
+
+.section5 .projects {
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.section5 .projects .capture,.description {
+    width: 50%;
+    /* height: 500px; */
+}
+
+.section5 .projects .capture{
+    background-color: rgb(31,41,55);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5 .projects .capture img {
+    height: 200px;
+}
+
+.section5 .projects .description{
+    background-color: rgb(17,24,39);
+    color: rgb(246,245,251);
+    padding: 20px;
+    font-size: 15px;
+}
+
+.section5 .projects .description b {
+    color: #f6c483;
+}
+
+.section5 .projects .description span  {
+    color: rgb(2, 7, 21);
+    background-color: rgb(31,41,55);
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+
+
+
+/* modélisation de la section 6s */
+.section6 {
+        display: flex;
+        align-items: center;
+        background-color: rgb(17,24,39);
+        /* max-height: 100vh; */
+        padding: 60px 100px;
+        flex-direction: column;
+}
+    
+.section6 h1 {
+        color: rgb(246,245,251);
+        background-color: rgb(151,154,163);
+        padding: 5px 20px;
+        font-weight: 700;
+        display: inline-block;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 15px;
+        margin-bottom: 70px;
+}   
+
+.section6 .cards {
+    display: flex;
+    gap: 30px;
+    color: rgb(246,245,251);
+    font-size: 15px;
+}
+
+.section6 .profil-ic {
+    display: flex;
+    align-items: center;
+}
+
+.section6 .profil-ic img {
+    height: 40px;
+}
+
+.section6 .card {
+    background-color: rgb(31,41,55);
+    padding: 20px;
+    height: 200px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section6 .card hr {
+    margin: 10px 0px;
+    border: 1px solid rgb(151,154,163);
+    border-radius: 50%;
+}
+
+.section6 .card h3 {
+    font-size: 15px;
+}
+
+
+
+
+/* style du footer */
+footer {
+    max-height: 100vh;
+    background-color: rgb(2, 7, 21);
+    padding: 60px;
+    color: rgb(246,245,251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer h1 {
+    color: rgb(246,245,251);
+        background-color: rgb(151,154,163);
+        padding: 5px 20px;
+        font-weight: 700;
+        display: inline-block;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 15px;
+        margin-bottom: 20px;
+}
+
+
+footer p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(246,245,251);
+    transition: ease-in-out 0.3s;
+}
+footer p a:hover{
+    color: rgb(111,102,255);
+}
+
+footer p img {
+    height: 20px;
+    margin-right: 10px;
+    transition: transform 0.5s ease;
+}
+
+footer p a:hover img {
+    transform: rotate(360deg);
+}
+
