@@ -59,13 +59,13 @@ README.md
 
 📬 Contact
 
-Email : votremail@example.com
+Email : mbitangangel@gmail.com.com
 
-WhatsApp : +237 6XX XX XX XX
+WhatsApp : +237 6 96 55 39 81
 
-LinkedIn : https://linkedin.com/in/votreprofil
+LinkedIn : https://linkedin.com/in/mbitangandy
 
-GitHub : https://github.com/votreprofil
+GitHub : https://github.com/Ossang2024
 
 📝 Licence
 
